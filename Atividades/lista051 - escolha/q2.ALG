@@ -7,12 +7,14 @@ Inicio
 escreva("Insira um número: ")
 leia(num)
 
-escolha(num)
- caso num > 0
-     escreva("O número é positivo!")
- caso num < 0
-     escreva("O número é negativo!")
- outrocaso
-     escreva("O número é nulo!")
-fimescolha
+se (num = 0) entao
+   escreva("Valor nulo")
+senao
+   se (num > 0) entao
+       escreva(num, " é positivo.")
+   senao
+       escreva(num, " é negativo.")
+   fimse
+fimse
+
 Fimalgoritmo
