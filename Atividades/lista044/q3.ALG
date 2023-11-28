@@ -11,6 +11,6 @@ leia(valor)
 acres <- valor * 0.18
 desc <- valor * 0.65
 
-escreva("O valor com acréscimo de 18% é igual a", acres, " e o valor com desconto de 65% é igual a", desc)
+escreva("O valor com acréscimo de 18% é igual a", valor + acres, " e o valor com desconto de 65% é igual a", valor - desc)
 
 Fimalgoritmo
